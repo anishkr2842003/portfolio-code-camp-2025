@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+a{
+    color: white;
+}
+
+.navbar{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgba(53, 51, 51, 0.651);
+}
+
+.menu{
+    display: flex;
+    gap: 30px;
+}
+
+.hero{
+    height: calc(100vh - 80px); 
+    width: 100%;
+    display: flex;
+}
+
+.menu a:hover{
+    color: rgb(183, 183, 11);
+}
+
+.left{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 23px;
+    padding-left: 80px;
+    padding-right: 10px;
+    color: white;
+}
+
+.right{
+    height: 100%;
+    width: 50%;
+    padding-top: 5px;
+}
+
+.left h5{
+    font-size: 25px;
+}
+
+.left h1{
+    font-size: 65px;
+    line-height: 1;
+    font-weight: bold;
+}
+
+#element{
+    font-size: 50px;
+}
+
+
+.left p{
+    font-size: 15px;
+    margin-top: 10px;
+    width: 80%;
+}
+
+.name{
+    color: rgb(183, 183, 11);
+}
+
+
+
+.heroImg{
+    height: 100%;
+    object-fit: cover;
+}
